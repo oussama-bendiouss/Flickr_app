@@ -30,6 +30,6 @@
         android:layout_gravity="center"
         android:layout_margin="40dp"
         android:id="@+id/bt1"
-        android:text="Importer une image"
+        android:text="Get an image"
         />
 </LinearLayout>
