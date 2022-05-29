@@ -22,8 +22,7 @@ import java.util.Vector;
 public class MyAdapter extends BaseAdapter {
     Context context;
     Vector<String> vector = new Vector<>();
-    Double Latitude;
-    Double Longitude;
+
 
     public MyAdapter(Vector<String> vector, Context context) {
         this.vector = vector;
@@ -83,27 +82,7 @@ public class MyAdapter extends BaseAdapter {
 
         return convertView;
     }
-    class MyLocationListener implements LocationListener {
 
-        @Override
-        public void onLocationChanged(Location location) {
-            Latitude = location.getLatitude();
-            Longitude = location.getLongitude();
-
-            Log.i("Latitude", Latitude.toString());
-            Log.i("Longitude", Longitude.toString());
-
-        }
-
-        @Override
-        public void onProviderDisabled(String provider) {}
-
-        @Override
-        public void onProviderEnabled(String provider) {}
-
-        @Override
-        public void onStatusChanged(String provider, int status, Bundle extras) {}
-    }
 
 
 }
