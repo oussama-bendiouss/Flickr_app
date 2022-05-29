@@ -5,3 +5,6 @@ C'est pas du json car il y a jsonFlickrFeed au départ du résultat ![image](htt
 ### Question 13:
 On a utiliser une AsyncTask qui permet une correcte et facile utilisation du UI thread. 
 
+###Asynchro tache + Utilistion du Bitmap
+![image](https://user-images.githubusercontent.com/72195669/170858387-137fdcaf-9dca-447e-892f-4bd1a5fac486.png)
+
