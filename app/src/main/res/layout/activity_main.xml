@@ -31,5 +31,12 @@
         android:layout_margin="40dp"
         android:id="@+id/bt1"
         android:text="Get an image"
+
         />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/go_list"
+        android:text="Go to List View"
+        android:layout_marginTop="60dp"/>
 </LinearLayout>
