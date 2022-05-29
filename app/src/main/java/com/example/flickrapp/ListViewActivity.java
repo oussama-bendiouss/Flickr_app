@@ -41,6 +41,7 @@ public class ListViewActivity extends AppCompatActivity {
         AsyncFlickrJSONDataForList ToDoList = new AsyncFlickrJSONDataForList(ListViewActivity.this,myAdapter);
         String urlToRequest = new String("https://www.flickr.com/services/feeds/photos_public.gne?tags=trees&format=json");
         ToDoList.execute(urlToRequest);
+        // Affichage de Longitude et latitude
         Log.i("Longitude",Longitude.toString());
         Log.i("Latitude",Latitude.toString());
 
