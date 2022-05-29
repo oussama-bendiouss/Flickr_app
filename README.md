@@ -12,5 +12,8 @@ Récupération de la première image est l'afficher dans un imageView
 ### Question 19:
 Création de la activity listVew. J'ai ajouté un boutton dans le main activity et j'ai utilisé un intent pour passer de la main activity vers ListView 
 
+### Implémentation de la Asynchron Activity for list et de l'adapter ![image](https://user-images.githubusercontent.com/72195669/170862788-6e97fc02-3b2e-4b81-9d78-ac8be22ab112.png)
+
+
 
 
